@@ -24,5 +24,3 @@ mongoose.connect(URL).then(()=>{
 
 App.use("/api", Route);
 App.use('/uploads', express.static('uploads'));
-
-module.exports = App;
